@@ -1,18 +1,28 @@
-// Log to console
-console.log('Hello World');
-console.log(123);
-console.log(true);
-var greeting = 'Hello';
-console.log(greeting);
-console.log([1, 2, 3, 4]);
-console.log({a:1, b:2});
-console.error('This is some error');
-console.clear();
-console.warn("This is warning");
-console.time('Hello');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-  console.log('Hello World');
-console.timeEnd('Hello');
+// Data types in javascript
+
+// Primitive DataType
+
+//String
+const name = 'John Doe';
+// Number
+const age = 45;
+// Boolean
+const haskids = true;
+// Null
+const car = null;
+// Symbol
+const sym = Symbol();
+
+// Reference types - Objects
+// Array
+const hobbies = ['movies', 'music'];
+// Object literal
+const address = {
+  city: 'Boston',
+  state: 'MA'
+}
+
+const today = new Date();
+console.log(today);
+
+console.log(typeof today);
